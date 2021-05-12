@@ -130,7 +130,7 @@ class Board(object):
             return True
     
 
-def is_valid_attack_path(self, path):
+    def is_valid_attack_path(self, path):
         '''
         The rules of Risk state that when attacking, 
         a player's armies cannot move through territories they already occupy;
